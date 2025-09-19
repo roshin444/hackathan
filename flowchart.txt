@@ -1,0 +1,46 @@
++-----------------------------+
+| 1. Upload Files             |
+| - Audit CSV                 |
+| - Checklist CSV             |
+| - Criteria JSON             |
++-------------+---------------+
+              |
+              v
++-----------------------------+
+| 2. Initialize Agent         |
+| - RiskAssessmentAgent       |
++-------------+---------------+
+              |
+              v
++-----------------------------+
+| 3. Run Risk Assessment      |
+| - Generate Summary          |
+| - Store in session_state    |
++-------------+---------------+
+              |
+              v
++-----------------------------+
+| 4. Tabs                     |
+| +-------------------------+ |
+| | a. Risk Assessment      | |
+| |    - Filter, Sort,      | |
+| |      Style Findings     | |
+| |    - Alerts             | |
+| |    - Excel Export       | |
+| +-------------------------+ |
+| | b. Interactive Q&A      | |
+| |    - Chat with AI       | |
+| |    - Feedback           | |
+| +-------------------------+ |
+| | c. Risk Dashboard       | |
+| |    - Bar Chart          | |
+| |    - Pie Chart          | |
+| +-------------------------+ |
+| | d. Performance Metrics  | |
+| |    - Total Findings     | |
+| |    - High/Critical      | |
+| |    - Avg Risk Score     | |
+| |    - Q&A Interactions   | |
+| |    - Processing Time    | |
+| +-------------------------+ |
++-----------------------------+
