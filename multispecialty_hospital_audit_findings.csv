@@ -1,0 +1,9 @@
+Area,Finding,Severity,Status
+Emergency & Trauma Center,Blocked emergency exit due to storage of equipment,High,Open
+Radiology Department,Loose electrical connections near imaging machines,High,Open
+Blood Bank,Generator backup not tested in last 6 months,Medium,Open
+Canteen,Oil spill near cooking area without signage,Medium,Open
+Staircase & Emergency Staircase,Emergency lighting not functional on 2nd floor,High,Open
+Nuclear Medicine Department,Uncalibrated radiation monitoring equipment,Critical,Open
+General Hospital Floors,Fire extinguishers not inspected within last 12 months,Medium,Open
+Mortuary,No visible evacuation signage,Low,Open

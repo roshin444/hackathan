@@ -1,0 +1,107 @@
+{
+    "facility": "Multi-Specialty Hospital - 750 beds",
+    "date": "2025-01-31",
+    "risk_levels": {
+        "Low": {
+            "score_range": [
+                0,
+                2
+            ],
+            "description": "Low likelihood and/or low impact."
+        },
+        "Medium": {
+            "score_range": [
+                3,
+                5
+            ],
+            "description": "Moderate likelihood or impact; requires attention."
+        },
+        "High": {
+            "score_range": [
+                6,
+                8
+            ],
+            "description": "High likelihood and significant impact; immediate action recommended."
+        },
+        "Critical": {
+            "score_range": [
+                9,
+                12
+            ],
+            "description": "Very likely and/or catastrophic impact; urgent mitigation required."
+        }
+    },
+    "scoring_criteria": {
+        "likelihood": {
+            "Rare": 1,
+            "Possible": 2,
+            "Likely": 3,
+            "Almost Certain": 4
+        },
+        "impact": {
+            "Minor": 1,
+            "Moderate": 2,
+            "Major": 3,
+            "Catastrophic": 4
+        },
+        "formula": "risk_score = likelihood_score * impact_score"
+    },
+    "area_specific_risks": [
+        {
+            "area": "Canteen",
+            "hazards": [
+                "Oil spills",
+                "Open flames"
+            ],
+            "suggested_likelihood": "Likely",
+            "suggested_impact": "Major"
+        },
+        {
+            "area": "Radiology",
+            "hazards": [
+                "Loose electrical",
+                "Equipment overheating"
+            ],
+            "suggested_likelihood": "Possible",
+            "suggested_impact": "Major"
+        },
+        {
+            "area": "Generator Room",
+            "hazards": [
+                "Fuel ignition",
+                "Poor ventilation"
+            ],
+            "suggested_likelihood": "Possible",
+            "suggested_impact": "Major"
+        },
+        {
+            "area": "Emergency Egress",
+            "hazards": [
+                "Blocked exits",
+                "Inadequate signage"
+            ],
+            "suggested_likelihood": "Possible",
+            "suggested_impact": "Major"
+        },
+        {
+            "area": "Nuclear Medicine",
+            "hazards": [
+                "Radioactive spill",
+                "Inadequate suppression"
+            ],
+            "suggested_likelihood": "Rare",
+            "suggested_impact": "Catastrophic"
+        }
+    ],
+    "mitigations": {
+        "general": [
+            "Immediate housekeeping and spill cleanup",
+            "Schedule equipment calibration",
+            "Electrical inspection & corrective maintenance",
+            "Conduct full-building evacuation drill"
+        ],
+        "nuclear_medicine": [
+            "Engage radiation safety officer, review suppression system, and prepare radiological emergency plan"
+        ]
+    }
+}
